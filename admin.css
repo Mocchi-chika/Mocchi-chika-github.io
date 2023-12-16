@@ -1,0 +1,173 @@
+/*
+	Author: ARIA RIFALDY;
+	Tema: Delivery Food Order Website Admin;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+	border: 0px solid black;
+	padding: 1%;
+	width: 100px;
+	margin: 0 auto;
+}
+
+div.container {
+  width: 960px;
+  padding: 10px 50px 20px;
+  background-color: darkgrey;
+  margin: 20px auto;
+  box-shadow: 1px 0px 10px, -1px 0px 10px ;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-white{
+    color: white;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+/* CSS tabel manage*/
+.tbl-full{
+	width: 100%;
+}
+.tbl-30{
+	width: 30%;
+}
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+table tr td{
+	padding: 1%;
+}
+.btn-primary{
+	background-color: #1e90ff;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-primary:hover{
+	background-color: #3742fa;
+}
+
+.btn-secondary{
+	background-color: #7bed9f;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-secondary:hover{
+	background-color: #2ed573;
+}
+
+.btn-danger{
+	background-color: #ff6b81;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-danger:hover{
+	background-color: #ff4757;
+}
+
+/* CSS message*/
+.success{
+	color: #2ed573;
+}
+.error{
+	color: #ff4757;
+}
+
+/* CSS menu Utama*/
+.main-content{
+	background-color: #f1f2f6;
+	padding: 3% 0;
+}
+.col-4{
+	width: 20%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+/* CSS menu Utama*/
+
+/* CSS menu 2*/
+.text-center{
+	text-align: center;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+/* CSS FOOTER*/
+.footer{
+	background-color: #ff4757;
+	color: white;
+}
+
+/* CSS form Login*/
+.login{
+	border: 1px solid grey;
+	width: 20%;
+	margin: 10% auto;
+	padding: 5%;
+}
